@@ -1,21 +1,32 @@
-# Rock Paper Scissors Bot 🤖✊✋✌️
+# 🤖 Rock Paper Scissors Bot — Pattern-Smashing AI ✊✋✌️
 
-This project implements a smart bot that plays Rock, Paper, Scissors using **pattern recognition** and **adaptive strategy**. It competes against four different bots and must win more than **60% of the games** in each match.
+A smart Python bot that plays Rock, Paper, Scissors using pattern recognition and adaptive strategy.  
+It battles against four opponent bots — and aims to win over 60% of the time in every match.
+
+---
 
 ## 🧠 Strategy
 
-- Tracks the opponent’s last 3 moves (n-gram model)
-- Predicts the next move based on past patterns
-- Counters that move to win
+This isn't random. The bot learns from history.
 
-## 📁 Files
+- 📊 Tracks the opponent’s last 3 moves using an n-gram model
+- 🧠 Predicts their next move based on patterns
+- 🔁 Counters it with the optimal response
 
-- `RPS.py`: Your intelligent player bot
-- `RPS_game.py`: Game engine and opponents (`quincy`, `abbey`, `kris`, `mrugesh`)
-- `main.py`: Script to test your player against opponents
-- `test_module.py`: (Optional) Tests for verifying accuracy
+> The longer the match, the stronger the bot.
 
-## ▶️ How to Run
+---
+
+## ▶️ Try It Online (Replit)
+
+👉 [Run on Replit](https://replit.com/@Anandusasikumar10/RPS-Bot)  
+Just hit “Run” and start the battle — no installation needed!
+
+---
+
+## 💻 Run Locally
 
 ```bash
+git clone https://github.com/Anandusasikumar10/RPS-bot.git
+cd RPS-bot
 python main.py
