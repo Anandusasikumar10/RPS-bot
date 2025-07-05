@@ -19,7 +19,7 @@ This isn't random. The bot learns from history.
 
 ## ▶️ Try It Online (Replit)
 
-👉 [Run on Replit](https://replit.com/@Anandusasikumar10/RPS-Bot)  
+👉 [Run on Replit]([https://replit.com/@Anandusasikumar10/RPS-Bot](https://replit.com/join/deihvkpqoc-anandusasikumar))  
 Just hit “Run” and start the battle — no installation needed!
 
 ---
